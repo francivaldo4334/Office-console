@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/fr/Documentos/office-console/office-console.csproj": {}
+  },
+  "projects": {
+    "/home/fr/Documentos/office-console/office-console.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/fr/Documentos/office-console/office-console.csproj",
+        "projectName": "office-console",
+        "projectPath": "/home/fr/Documentos/office-console/office-console.csproj",
+        "packagesPath": "/home/fr/.nuget/packages/",
+        "outputPath": "/home/fr/Documentos/office-console/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/fr/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[5.2.9, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[108.0.3, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
